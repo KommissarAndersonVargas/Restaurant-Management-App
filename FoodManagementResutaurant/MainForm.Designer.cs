@@ -59,7 +59,6 @@
             this.verticalMenu.Name = "verticalMenu";
             this.verticalMenu.Size = new System.Drawing.Size(200, 541);
             this.verticalMenu.TabIndex = 0;
-            this.verticalMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // tableLayoutPanelforMenu
             // 
@@ -211,7 +210,6 @@
             this.ProductsButton.Size = new System.Drawing.Size(194, 61);
             this.ProductsButton.TabIndex = 6;
             this.ProductsButton.Text = "Products";
-            this.ProductsButton.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // StaffButton
             // 
@@ -256,7 +254,6 @@
             this.TablesButton.Size = new System.Drawing.Size(194, 61);
             this.TablesButton.TabIndex = 7;
             this.TablesButton.Text = "Tables";
-            this.TablesButton.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // logoPictureBox
             // 
@@ -267,7 +264,6 @@
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logoPictureBox.TabIndex = 3;
             this.logoPictureBox.TabStop = false;
-            this.logoPictureBox.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // topMenu
             // 
@@ -326,7 +322,6 @@
             this.centerPanel.Name = "centerPanel";
             this.centerPanel.Size = new System.Drawing.Size(628, 435);
             this.centerPanel.TabIndex = 2;
-            this.centerPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
             // 
             // HomeButton
             // 
@@ -355,7 +350,6 @@
             this.HomeButton.Size = new System.Drawing.Size(194, 61);
             this.HomeButton.TabIndex = 4;
             this.HomeButton.Text = "Home";
-            this.HomeButton.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // MainForm
             // 

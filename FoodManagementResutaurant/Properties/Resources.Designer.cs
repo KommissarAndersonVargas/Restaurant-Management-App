@@ -103,6 +103,26 @@ namespace FoodManagementResutaurant.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3669477_add_box_ic_icon {
+            get {
+                object obj = ResourceManager.GetObject("_3669477_add_box_ic_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3844432_magnifier_search_zoom_icon {
+            get {
+                object obj = ResourceManager.GetObject("_3844432_magnifier_search_zoom_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3844435_home_house_icon {
             get {
                 object obj = ResourceManager.GetObject("_3844435_home_house_icon", resourceCulture);

@@ -171,5 +171,11 @@
   <ItemGroup>
     <None Include="Resources\jolibee.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3669477_add_box_ic_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3844432_magnifier_search_zoom_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
