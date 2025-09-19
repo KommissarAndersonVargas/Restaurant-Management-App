@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EEF2EA6-CACE-4EF8-B06B-522F99FC4B88}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FoodManagementResutaurant</RootNamespace>
+    <AssemblyName>FoodManagementResutaurant</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramFroms\HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramFroms\HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFroms\SampleAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramFroms\SampleAddForm.Designer.cs">
+      <DependentUpon>SampleAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramFroms\SampleViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramFroms\SampleViewForm.Designer.cs">
+      <DependentUpon>SampleViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramFroms\HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramFroms\SampleAddForm.resx">
+      <DependentUpon>SampleAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramFroms\SampleViewForm.resx">
+      <DependentUpon>SampleViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2203549_admin_avatar_human_login_user_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49576_new_add_plus_user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8572635_food_fast food_burger_hamburger_junk food_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8760285_food_delivery_car_delivery car_food truck_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7429360_food_delivery_service_take away_restaurant_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\808990_chief_cook_food_kitchen_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\290143_cash_money_payment_wallet_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7727579_staff_people_team_teamwork_group_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\809102_desk_dining_interior_table_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\211700_box_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3017931_categories_class_division_group_list_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3844435_home_house_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\753919_tools_working_options_preferences_settings_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8664955_box_open_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jolibee.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

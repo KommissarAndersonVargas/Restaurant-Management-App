@@ -1,0 +1,16 @@
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\bin\Debug\FoodManagementResutaurant.exe.config
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\bin\Debug\FoodManagementResutaurant.exe
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\bin\Debug\FoodManagementResutaurant.pdb
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\bin\Debug\Guna.UI2.dll
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.Form1.resources
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.Properties.Resources.resources
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodMana.C9BF0C90.Up2Date
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.exe
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.pdb
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.MainForm.resources
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.ProgramFroms.HomeForm.resources
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.ProgramFroms.SampleAddForm.resources
+C:\Users\Usuario\source\repos\FoodManagementResutaurant\FoodManagementResutaurant\obj\Debug\FoodManagementResutaurant.ProgramFroms.SampleViewForm.resources
